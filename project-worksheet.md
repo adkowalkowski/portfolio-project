@@ -4,90 +4,75 @@
 
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
 
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Wireframes / Priority Matrix / Timeline / Core Application Structure | Incomplete
-|Day 1| Core Application Structure (HTML, CSS, etc.) / NavBar / Mobile Grid layout | Incomplete
-|Day 3| MVP & Styling | Incomplete
-|Day 4| MVP & Bug Fixes & Final Touches| Incomplete
+|Day 1| Wireframes / Priority Matrix / MVPs / Timeline | Incomplete
+|Day 2| Core Application Structure (HTML, CSS, etc.) / NavBar & Footer / Mobile Grid layout | Incomplete
+|Day 3| MVP / Responsive styling / jQuery | Incomplete
+|Day 4| MVP / Bug Fixes / Final Touches| Incomplete
 |Day 5| Present | Incomplete
 
 
 ## Project Description
 
-The final project will be a functioning portfolio website. It will follow minimalistic design principles and be responsive. 
+The final project will be a functioning portfolio website. It will follow minimalistic design principles and be responsive. I prefer minimal and clean design for portfolios so the focus can be on the individual and their skills.   
 
 ## Wireframes
 
-Include images of wireframe with a description of the specific wireframe.   
+?? About page is a requirement, but is it ok that I have this information set in my home page? Or do I need to have a separate about page ??  
 
-- [Mobile](https://i.imgur.com/P3iBEZf.jpg)
-- [Desktop](https://i.imgur.com/xpOWo0E.jpg)
-
-Wireframing Resources:
-
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
-
+- [Mobile](https://imgur.com/a/HoUxuOv)
+- [Desktop](https://imgur.com/a/gb98otz)
 
 ## Time/Priority Matrix 
 
-[Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
-
-Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
-
-Now draw a vertical line on the y axis.  The top of this line should have `High` and the bottom `Low`.  This line will be used to assign a priority to to each feature you wish to include in the project.  
-
-Now create a separate list starting with A and assign it one of the features.  Continue to assign each feature a letter.  Once complete add each letter to the matrix assigning based on what your feel it's prioirty is an how long it will take to implement. If any one feature takes longer than 2hrs to complete than break it down into smaller tasks and reassign them a new letter. 
-
-Once complete tally up the time and determine how long the project will take to complete. Now break those features into MVP and PostMVP so you can guarantee you will have a fully functioning project to demo. 
+[Link](https://imgur.com/a/r00tEaY)
 
 ### MVP/PostMVP - 5min
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+#### MVP 
 
-#### MVP (examples)
-
-- Pull data using google json api
-- Render data on page 
-- Allow user to choose favorites 
-- Save their choices in firebase
+- Functional sticky navigation bar
+- Functional footer 
+- HTML & CSS Grid styling on HOME page
+- HTML & CSS Grid styling on PROJECTS page   
+- HTML & CSS Grid styling on CONTACT page
+- Responsive styling
 
 #### PostMVP 
 
-- Anything else that is not MVP
+- Google Form on contact page
+- Hover animations
+- fadeIn/slideIn animations
+- General styling (font families, colors, etc.)
+- Social media icons in footer
 
 ## Functional Components
-
-Based on the initial logic defined in the previous sections try and breakdown the logic further into smaller components.  Try and capture what logic would need to be defined if the game was broken down into the following categories.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the portfolio. Your estimates can then be used to evalute possibilities based on time needed and the actual time you have before the portfolio must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe.
 
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Hamburger | H | 1hr | hr |
-| Project Previews | H | 3hr | hr |
-| Regular Nav | H | 1hr | hr |  
-| Adding Form | H | 1.5hr|  hr | 
-| Other sections and flex| M | 3hr | hr|
-| Working with API | H | 3hrs|  hr | 
-| Responsive | H | 3hr | hr | hr |
-| Social Media Icons | L | 1hr |  hr |
-| Total | H | 15.5hrs| hrs |
+| Core HTML for home, projects, and contact page | H | 2hrs | hr |
+| Grid/Flexbox styling for nav bar | H | 2hrs | hr |
+| Functioning navbar (e.g. clicking on projects takes you to projects) | H | 1hr | hr |
+| Functioning footer | H | 1hr |  hr |
+| Grid styling (mobile) home page | H | 2hrs | hr |  
+| Grid styling (mobile) projects page | H | 2hrs |  hr | 
+| Grid styling (mobile) contact page | M | 2hrs | hr|
+| Responsive styling (tablet) | H | 2hr |  hr | 
+| Responsive styling (desktop) | H | 2hr |  hr |
+| Total | H | 16hrs| hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Project Hover | L | 3hr | -hr | hr |
-| Banner letters wiggle | L | 1hr | hr |
-| Interactive Banner | M | 4hr | hr |
-| Materialize | H | 4hr | -hr | hr |
-| Bootstrap | H | 4hr | hr |
-| Make own icon | L | 4hr | hr |
-| Total | H | 20hrs| hrs |
+| Google Form displaying on contact page | L | 1hr | -hr | hr |
+| Google Form successfully submits to a Sheet | L | 1hr | hr |
+| Hover animations over navbar | M | 1hr | hr |
+| Animations on load | H | 2hr | -hr | hr |
+| General styling (font families, colors, etc.) | H | 1hr | hr |
+| Social media icons in footer | L | 1hr | hr |
+| Total | H | 7hrs| hrs |s
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project. 
