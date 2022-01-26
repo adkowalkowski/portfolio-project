@@ -43,7 +43,7 @@ nav a:nth-of-type(3) {
     margin: 5px;
 }
 
-img {
+.anthony-headshot {
     display: block;
     margin-top: 10px; 
     margin-left: auto;
@@ -55,18 +55,22 @@ img {
 .projects {
     margin-top: 20px;
     margin-bottom: 0px;
-    
+}
+
+.description {
+    text-align: center;
 }
 
 .projects-description {
     margin-top: 5px; 
-    margin-bottom: 20px; 
+    margin-bottom: 40px; 
      
 }
 
 .project-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .project-content h1 {
@@ -75,21 +79,20 @@ img {
 }
 
 .project-content p {
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 40px;
 }
-
-
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: end;
+    
 }
+
 
 i {
     padding: 5px; 
 }
+
+
 
 @media screen and (min-width: 768px) {
     .page {
@@ -97,7 +100,7 @@ i {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
     }
-    img {
+    .anthony-headshot {
         place-self: center;
         max-width: 100%;
         max-height: 75%;
@@ -116,7 +119,7 @@ i {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
     }
-    img {
+    .anthony-headshot {
         place-self: center;
         max-width: 100%;
         max-height: 75%;
