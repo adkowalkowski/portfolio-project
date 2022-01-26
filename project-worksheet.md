@@ -71,7 +71,7 @@ The final project will be a functioning portfolio website. It will follow minima
 | Hover animations over navbar | M | 1hr | hr |
 | Animations on load | H | 2hr | -hr | hr |
 | General styling (font families, colors, etc.) | H | 1hr | hr |
-| Social media icons in footer | L | 1hr | hr |
+| Social media icons in footergi | L | 1hr | hr |
 | Total | H | 7hrs| hrs |s
 
 ## Additional Libraries
