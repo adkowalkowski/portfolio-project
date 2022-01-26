@@ -75,8 +75,12 @@ The final project will be a functioning portfolio website. It will follow minima
 | Total | H | 7hrs| hrs |s
 
 ## Additional Libraries
+
+fontAwesome
  Use this section to list all supporting libraries and thier role in the project. 
 
+## Additional Sources
+Google form article I used hear
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  

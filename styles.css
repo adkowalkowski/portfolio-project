@@ -1,3 +1,27 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+  }
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+  }
+
+  .project-img-hover {
+    transform: scale(1.125);
+  }
+
+/* The above lines are from bootstrap example for a sticky footer. I was able to write the footer code on my own, but the html and body tags fixed a bug where my footer wasn't sticky at the bottom */
+  
+
 .nav {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -13,13 +37,9 @@
 	font-size: 21px;
 }
 
-/* nav li:hover {
-	color: #aa0000;
-} */
-
 nav a:nth-of-type(1) {
 	grid-column: 1 / 2;
-    place-self: start;
+    place-self: start center;
 }
 
 nav a:nth-of-type(2) {
@@ -29,7 +49,7 @@ nav a:nth-of-type(2) {
 
 nav a:nth-of-type(3) {
 	grid-column: 3 / 4;
-    place-self: start end;
+    place-self: start center;
 }
 
 .linebreak {
@@ -70,10 +90,20 @@ nav a:nth-of-type(3) {
 .project-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-.project-content h1 {
+.project-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact {
+    text-align: center;
+}
+
+/* .project-content h1 {
     margin-top: 10px;
     margin-bottom: 0px;
 }
@@ -81,7 +111,7 @@ nav a:nth-of-type(3) {
 .project-content p {
     margin-top: 5px;
     margin-bottom: 40px;
-}
+} */
 
 footer {
     
@@ -106,9 +136,21 @@ i {
         max-height: 75%;
         margin-left: auto;
     }
-    p {
+    .page p {
         place-self: center;
         margin-right: 5%;
+    }
+    .project-content {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 50px;
+        gap: 40px;
+    }
+    .project-content img {
+        flex-grow: 0.5;
+    }
+    .projects-container {
+        text-align: start;
     }
 }
 
@@ -125,9 +167,25 @@ i {
         max-height: 75%;
         margin-left: auto;
     }
-    p {
+    .page p {
         place-self: center;
         margin-right: 5%;
     }
+    .project-content {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 50px;
+        gap: 40px;
+    }
+    .project-content img {
+        flex-grow: 0.5;
+    }
+    .projects-container {
+        text-align: start;
+    }
+    .description {
+        text-align:center;
+    }
+    
 }
 }
