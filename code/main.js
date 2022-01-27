@@ -5,10 +5,10 @@ $(() => {
         }
       );
 
-
+      /*! Fades in page on load */
       $(document).ready(function(){
 
-        /*! Fades in page on load */
+        
         $('.name').css('display', 'none');
         $('.name').fadeIn(1500);
         $('.page').css('display', 'none');
