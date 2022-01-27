@@ -1,15 +1,18 @@
 $(() => {
+  //  I think the following function could just be done in CSS
     $(".project-content img").hover(function() {
         $(this).toggleClass("project-img-hover");
         }
       );
+
+
       $(document).ready(function(){
 
         /*! Fades in page on load */
         $('.name').css('display', 'none');
-        $('.name').slideDown(1250);
+        $('.name').fadeIn(1500);
         $('.page').css('display', 'none');
-        $('.page').slideDown(1250);
+        $('.page').fadeIn(1500);
         
         });
 
