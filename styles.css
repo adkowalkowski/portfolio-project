@@ -16,7 +16,7 @@ html {
   }
 
   .project-img-hover {
-    transform: scale(1.125);
+    transform: scale(1.05);
   }
 
 /* The above lines are from bootstrap example for a sticky footer. I was able to write the footer code on my own, but the html and body tags fixed a bug where my footer wasn't sticky at the bottom */
@@ -103,6 +103,12 @@ nav a:nth-of-type(3) {
     display: flex;
     justify-content: flex-start;
     margin: 25px;
+    font-family: 'Readex Pro', sans-serif; 
+    font-size: 2vh;
+    font-size: 5vw;
+
+
+    
 }
 
 /* .anthony-headshot {
@@ -168,17 +174,25 @@ i {
     .page {
         display: grid; 
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+    }
+    .name {
+        grid-column: 1 / 2;
+        font-size: 5vw;
+        justify-self: stretch;
+        align-self: end;
+    }
+
+    .about-me {
+        grid-column: 2 / 3;
+        font-size: 2.5vw;
+        justify-self: stretch;
+        align-self: end;
     }
     .anthony-headshot {
         grid-column: 1 / 2;
         width: auto;
         height: 100%;
         border-radius: 80%/80%;       
-    }
-    .page p {
-        place-self: center;
-        margin-right: 5%;
     }
     .project-content {
         flex-direction: row;
@@ -199,17 +213,12 @@ i {
     .page {
         display: grid; 
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
     }
     .anthony-headshot {
         grid-column: 1 / 2;
         width: auto;
         height: 100%;
         border-radius: 80%/80%;        
-    }
-    .page p {
-        place-self: center;
-        margin-right: 5%;
     }
     .project-content {
         flex-direction: row;
