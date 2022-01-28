@@ -67,7 +67,7 @@ The final project will be a functioning portfolio website. It will follow minima
 | Google Form displaying on contact page | L | 1hr | 0.5hr | hr |
 | Google Form successfully submits to a Sheet | L | 1hr | 0.5hr |
 | Hover animations over navbar | M | 1hr | 0.5hr |
-| Animations on load | H | 2hr | -hr | 0.5hr |
+| Animations on load | H | 2hr | 0.5hr | 0.5hr |
 | General styling (font families, colors, etc.) | H | 1hr | 2hr |
 | Social media icons in footergi | L | 1hr | 1hr |
 | Total | H | 7hrs| 5hrs |s
