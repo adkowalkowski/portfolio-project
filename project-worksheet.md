@@ -17,9 +17,7 @@ This schedule will be used to keep track of your progress throughout the week an
 
 The final project will be a functioning portfolio website. It will follow minimalistic design principles and be responsive. I prefer minimal and clean design for portfolios so the focus can be on the individual and their skills.   
 
-## Wireframes
-
-?? About page is a requirement, but is it ok that I have this information set in my home page? Or do I need to have a separate about page ??  
+## Wireframes 
 
 - [Mobile](https://imgur.com/a/HoUxuOv)
 - [Desktop](https://imgur.com/a/gb98otz)
@@ -52,27 +50,27 @@ The final project will be a functioning portfolio website. It will follow minima
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Core HTML for home, projects, and contact page | H | 2hrs | hr |
-| Grid/Flexbox styling for nav bar | H | 2hrs | hr |
-| Functioning navbar (e.g. clicking on projects takes you to projects) | H | 1hr | hr |
-| Functioning footer | H | 1hr |  hr |
-| Grid styling (mobile) home page | H | 2hrs | hr |  
-| Grid styling (mobile) projects page | H | 2hrs |  hr | 
-| Grid styling (mobile) contact page | M | 2hrs | hr|
-| Responsive styling (tablet) | H | 2hr |  hr | 
-| Responsive styling (desktop) | H | 2hr |  hr |
-| Total | H | 16hrs| hrs |
+| Core HTML for home, projects, and contact page | H | 2hrs | 3hr |
+| Grid/Flexbox styling for nav bar | H | 2hrs | 5hr |
+| Functioning navbar (e.g. clicking on projects takes you to projects) | H | 1hr | 0.5hr |
+| Functioning footer | H | 1hr |  2hr |
+| Grid styling (mobile) home page | H | 2hrs | 3hr |  
+| Grid styling (mobile) projects page | H | 2hrs |  3hr | 
+| Grid styling (mobile) contact page | M | 2hrs | 0.5hr|
+| Responsive styling (tablet) | H | 2hr |  2hr | 
+| Responsive styling (desktop) | H | 2hr |  2hr |
+| Total | H | 16hrs| 21hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Google Form displaying on contact page | L | 1hr | -hr | hr |
-| Google Form successfully submits to a Sheet | L | 1hr | hr |
-| Hover animations over navbar | M | 1hr | hr |
-| Animations on load | H | 2hr | -hr | hr |
-| General styling (font families, colors, etc.) | H | 1hr | hr |
-| Social media icons in footergi | L | 1hr | hr |
-| Total | H | 7hrs| hrs |s
+| Google Form displaying on contact page | L | 1hr | 0.5hr | hr |
+| Google Form successfully submits to a Sheet | L | 1hr | 0.5hr |
+| Hover animations over navbar | M | 1hr | 0.5hr |
+| Animations on load | H | 2hr | -hr | 0.5hr |
+| General styling (font families, colors, etc.) | H | 1hr | 2hr |
+| Social media icons in footergi | L | 1hr | 1hr |
+| Total | H | 7hrs| 5hrs |s
 
 ## Additional Libraries
 
@@ -81,6 +79,8 @@ Google Fonts
 
 ## Additional Sources
 - [Google article to attach form to site](https://support.google.com/a/users/answer/9308623?hl=en) 
+- [Stackoverflow article to help with sticky footer](https://support.google.com/a/users/answer/9308623?hl=en)
+- [MDN location assign](https://developer.mozilla.org/en-US/docs/Web/API/Location/assign)
 
 ## Code Snippet
 
