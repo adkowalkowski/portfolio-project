@@ -20,6 +20,7 @@ html {
 	color: black;
 	margin-top: 10px;
     font-family: 'Questrial', sans-serif;
+    font-weight: lighter;
 }
 
 .nav-item:hover {
@@ -72,8 +73,6 @@ nav a:nth-of-type(3) {
     margin-left: 10px;
     margin-right: 10px;
 }
-
-
 
 .linebreak {
 	border-top: 1px solid black;
@@ -289,5 +288,4 @@ footer a {
         text-align:center;
     }
     
-}
 }

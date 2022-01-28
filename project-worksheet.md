@@ -80,7 +80,9 @@ fontAwesome
  Use this section to list all supporting libraries and thier role in the project. 
 
 ## Additional Sources
-Google form article I used hear
+Google form article I used here 
+MDN documents for some jquery 
+Bootstrap footer
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
@@ -92,7 +94,15 @@ function reverse(string) {
 ```
 
 ## Issues and Resolutions
- Use this section to list of all major issues encountered and their resolution.
+Major issue was getting the logo to display properly in the navbar. It was a lot of trial and error with CSS grid and styling. 
+
+Having the footer stick to the bottom. Originally this worked when users didn't have to scroll, but I eventually added a page that needed users to scroll. When this happened the footer was stuck in the middle of the page. I found an example from bootstrap that included HTML and body tags to include in the CSS. This made sure my footer stayed at the bottom of the page even if users had to scroll.
+
+I wanted users to be able to click on my logo and have it redirect them to the homepage. One solution was nesting the img inside an a tag, but this caused a decent amount of problems that would've taken a while to troubleshoot. I looked through the Jquery documentation and was able to .on(click) and window.location.assign to redirect users to the home page when they clicked on the logo. 
+
+Responsive design for the nav bar was a constant struggle. I felt like I had it styled perfectly, and then I would adjust some code, and the nav bar wouldn't look right anymore. It was just a lot of back and forth with margins and text-size etc. 
+
+
 
 #### SAMPLE.....
 **ERROR**: app.js:34 Uncaught SyntaxError: Unexpected identifier                                
