@@ -5,7 +5,7 @@ html {
   body {
     margin-bottom: 80px;
   }
-/* The above lines are from bootstrap example for a sticky footer. I was able to write the footer code on my own, but the html and body tags fixed a bug where my footer wasn't sticky at the bottom */
+/* The above lines are from stackoverflow example for a sticky footer. I was able to write the footer code on my own, but the html and body tags fixed a bug where my footer wasn't sticky at the bottom */
   
 
 .nav {
