@@ -6,10 +6,10 @@ This schedule will be used to keep track of your progress throughout the week an
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Wireframes / Priority Matrix / MVPs / Timeline | Incomplete
-|Day 2| Core Application Structure (HTML, CSS, etc.) / NavBar & Footer / Mobile Grid layout | Incomplete
-|Day 3| MVP / Responsive styling / jQuery | Incomplete
-|Day 4| MVP / Bug Fixes / Final Touches| Incomplete
+|Day 1| Wireframes / Priority Matrix / MVPs / Timeline | Complete
+|Day 2| Core Application Structure (HTML, CSS, etc.) / NavBar & Footer / Mobile Grid layout | Complete
+|Day 3| MVP / Responsive styling / jQuery | Complete
+|Day 4| MVP / Bug Fixes / Final Touches| Complete
 |Day 5| Present | Incomplete
 
 
@@ -77,20 +77,19 @@ The final project will be a functioning portfolio website. It will follow minima
 ## Additional Libraries
 
 fontAwesome
- Use this section to list all supporting libraries and thier role in the project. 
+Google Fonts
 
 ## Additional Sources
-Google form article I used here 
-MDN documents for some jquery 
-Bootstrap footer
+- [Google article to attach form to site](https://support.google.com/a/users/answer/9308623?hl=en) 
+
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of an a brief description  
+The below redirects a user to the homepage when they click on the logo in the navbar. I decided halfway through the project I wanted to move my image from the page to the nav bar, so I ended up having to change a decent amount of code. When Googling, the most popular solution was to wrap the img tag in an a tag where the a tag has an hfref toward index.html. This works but it caused problems for me since other items in the nav were already a tags and styled using grid. I thought there might be a solution with javascript, so I looked through MDN documentation and found location: assign. Then I was able to make a function where users are redirected to the homepage on a click. It was cool to be able to clearly see different solutions to the same problem. 
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+$(".anthony-headshot").on("click", function() {
+            window.location.assign("index.html");
+        });
 ```
 
 ## Issues and Resolutions
