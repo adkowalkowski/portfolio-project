@@ -103,19 +103,16 @@ nav a:nth-of-type(3) {
     margin-top: 20px;
     margin-bottom: 0px;
     font-family: 'Cuprum', sans-serif;
-    font-size: 3vw;
 }
 
 .description {
     text-align: center;
     font-family: 'Questrial', sans-serif;
-    font-size: 1.5vw;
 }
 
 .projects-description {
     margin-top: 5px; 
     margin-bottom: 40px; 
-     
 }
 
 .project-content h1 {
@@ -237,6 +234,18 @@ footer a {
         width: auto;
         height: 100%;
         border-radius: 80%/80%;       
+    }
+    .projects {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        font-family: 'Cuprum', sans-serif;
+        font-size: 3vw;
+    }
+    
+    .description {
+        text-align: center;
+        font-family: 'Questrial', sans-serif;
+        font-size: 1.5vw;
     }
     .project-content {
         flex-direction: row;
